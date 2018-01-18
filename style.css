@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(66, 61, 61);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+table {
+    margin: auto;   
+}
+
+td {
+    width: 15px;
+    height: 15px;
+}
+
+#bar{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#gameOver{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#score{
+    font-size: 20px;
+    float: right;
+    margin-right: 450px;
+}
+button{
+    color: white;
+    background-color:rgb(66, 61, 61);
+    border:none;
+    font-size: 20px;
+    margin-left: 450px;
+}
+
+button:hover{
+    color:rgb(66, 61, 61);
+    background-color: white;
+
+}
+.bite{
+    background-color: rgb(207, 18, 18);
+}
+
+.blank {
+    background-color: blank;
+}
+
+.snake {
+    background-color: bisque
+}
+
+.wall {
+    background-color: rgb(173, 129, 47)
+}
+
+.fruit {
+    background-color: red;
+}
